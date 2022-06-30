@@ -102,3 +102,23 @@ footer p{
     margin-bottom: 2%;
     width: 50%;
   }
+
+  .botao{
+    margin: 1%;
+     width: 100px;
+     height: 30px;
+     padding: 10px;
+     background-color: rgba(9, 7, 6, 0.3);
+     margin: auto;
+   }
+   .botao:hover{
+     background-color:#3a3a3a;
+   }
+   .botao a:link, .botao a:visited{
+     color:#ffffff;
+     text-decoration: none;
+     font-weight: bolder;
+   }
+   .botao p{
+     text-align: center;
+   }
