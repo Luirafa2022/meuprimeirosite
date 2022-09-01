@@ -209,4 +209,17 @@ footer p{
       margin-top: 0;
     }
   }
+
+  .logo{
+    width: 20%;
+  }
+
+  .img_logo{
+    text-align: center;
+  }
+
+  header{
+    position: fixed;
+    width: 100%;
+  }
   
