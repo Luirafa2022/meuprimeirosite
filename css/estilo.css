@@ -212,7 +212,7 @@ footer p{
 
     .itens_menu{
       position:absolute
-      right: 6%;
+      right 6%;
       top: 45%;
       width: 100%;
     }
