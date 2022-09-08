@@ -13,12 +13,6 @@ html{
     scroll-behavior: smooth;
   }
 
-.menu{
-    background-color: rgba(25, 100, 255, 0.6);
-    padding: 2%;
-
-}
-
 p{
     color: rgb(255, 255, 255);
     font-size: 3ex;
@@ -203,10 +197,17 @@ footer p{
     clear: both;
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 600px) {
     .col-25, .col-75, input[type=submit] {
       width: 100%;
       margin-top: 0;
+    }
+  }
+
+  @media screen and (min-width: 601px) {
+    .fixo{
+      background-color: rgba(25, 100, 255, 0.6);
+      flex-direction: row;
     }
   }
 
@@ -219,7 +220,15 @@ footer p{
   }
 
   header{
+    background-color: rgba(25, 100, 255, 0.6);
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fixo{
     position: fixed;
     width: 100%;
+    z-index: 1000;
   }
   
