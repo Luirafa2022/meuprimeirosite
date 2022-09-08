@@ -209,6 +209,19 @@ footer p{
       background-color: rgba(25, 100, 255, 0.6);
       flex-direction: row;
     }
+
+    .itens_menu{
+      position:absolute
+      right: 6%;
+      top: 45%;
+      width: 100%;
+    }
+
+    .itens_menu ul li{
+      display: inline;
+      margin-left: 1%;
+
+    }
   }
 
   .logo{
