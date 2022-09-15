@@ -43,6 +43,13 @@ figure{
     width: 75%;
 }
 
+.fixo{
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+}
+
 .itens_menu{
     padding-top: 1%;
     line-height: 1.5;
@@ -197,32 +204,7 @@ footer p{
     clear: both;
   }
 
-  @media screen and (max-width: 600px) {
-    .col-25, .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
-
-  @media screen and (min-width: 601px) {
-    .fixo{
-      background-color: rgba(25, 100, 255, 0.6);
-      flex-direction: row;
-    }
-
-    .itens_menu{
-      position:absolute
-      right 6%;
-      top: 45%;
-      width: 100%;
-    }
-
-    .itens_menu ul li{
-      display: inline;
-      margin-left: 1%;
-
-    }
-  }
+ 
 
   .logo{
     width: 20%;
@@ -244,4 +226,57 @@ footer p{
     width: 100%;
     z-index: 1000;
   }
+
+
   
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+
+    .banner{
+      margin-top: 70%;
+    }
+
+    .decer{
+      margin-top: 115%;
+    }
+  }
+
+  @media screen and (min-width: 601px) {
+    .fixo{
+      background-color: rgba(25, 100, 255, 0.6);
+      flex-direction: row;
+      padding: 3%;
+    }
+
+    .itens_menu{
+      position: absolute;
+      right: 2%;      
+      width: 70%;
+      margin-right: 3%;
+  }
+
+  .itens_menu ul li{
+      display: inline;
+      margin-left: 1%;
+  }
+
+  .img_logo{
+    width: 30%;
+}
+
+.logo{
+    width: 30%;
+    text-align: left;
+}
+
+  .banner{
+    margin-top: 12%;
+  }
+
+  .decer{
+    margin-top: 20%;
+  }
+  }
