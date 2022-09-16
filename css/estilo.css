@@ -242,6 +242,11 @@ footer p{
     .decer{
       margin-top: 115%;
     }
+
+    audio{
+      width: 100%;
+      float: left;
+    }
   }
 
   @media screen and (min-width: 601px) {
